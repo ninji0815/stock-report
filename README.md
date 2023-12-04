@@ -2,6 +2,29 @@
 
 일별 주식 분석 자동화 시스템
 
+## 목차
+  * [🖥️ 프로젝트 소개](#-----------)
+    + [🕰️ 개발 기간](#---------)
+    + [👩‍🤝‍👩 팀원 구성](#--------------)
+    + [⚙️ 개발 환경](#--------)
+  * [👍 프로젝트의 주요 특징](#--------------)
+    + [1) 오픈 소스 활용:](#1-----------)
+    + [2) 강의에서 배운 툴 사용:](#2---------------)
+    + [3) 자체 개발:](#3--------)
+  * [📌 시나리오 및 요구사항](#--------------)
+    + [- step 1. 종목 코드 및 일별 시세 불러오기:](#--step-1--------------------)
+    + [- step 2. 주식 분석 자료(그래프, 테이블) 준비하기:](#--step-2-------------------------)
+    + [- step 3. 보고서 작성하기](#--step-3---------)
+    + [- step 4. 보고서 이메일 전송하기](#--step-4-------------)
+  * [🧩 Block Diagram](#---block-diagram)
+  * [🔗 UML Sequence Diagram](#---uml-sequence-diagram)
+    + [# step 1 ~ step 2](#--step-1---step-2)
+    + [# step 3](#--step-3)
+    + [# step 4](#--step-4)
+  * [📂 UML Class Diagram](#---uml-class-diagram)
+  * [📄 파일별 구현 형태](#------------)
+
+
 ## 🖥️ 프로젝트 소개
 사용자가 원하는 회사의 주식 정보를 메일로 받아볼 수 있는 자동화 시스템입니다.
 
@@ -10,9 +33,7 @@
  - 효율적인 데이터 수집 및 분석 가능
  - 자동 보고 및 시각화 기능으로 편리하게 시장 동향 파악 가능
 
-
-
-## 🕰️ 개발 기간
+### 🕰️ 개발 기간
 23.11.14 ~ 23.12.06
 
 ### 👩‍🤝‍👩 팀원 구성
@@ -26,6 +47,35 @@
 
 ### ⚙️ 개발 환경
 
+## 👍 프로젝트의 주요 특징
+ ### 1) 오픈 소스 활용:
+- FinanceDataReader
+- matplotlib
+- Pandas
+- datetime
+- os
+- pptx
+- smtplib
+- email
+- schedule
+- time
+
+ ### 2) 강의에서 배운 툴 사용:
+
+   ① library: matplotlib /Pandas excel&csv 파일 저장 응용
+
+   ② tool: jupyter notebook/ GitHub
+
+ ### 3) 자체 개발:
+
+   ① 여러명한테 동시에 email 전송하는 기능
+
+   ② 사용자가 원하는 특정 회시만 볼 수 있도록 입력 받고 크롤링 해오는 기능
+
+   ③ 코드명을 입력하면 일별시세 보여주는 기능
+
+   ④ 정해진 시간에 일별 주식 분석 자료 전송하는 기능
+   
 ## 📌 시나리오 및 요구사항
   ### - step 1. 종목 코드 및 일별 시세 불러오기: 
   - 사용자가 종목코드를 검색하기 위해 프로그램에 회사명을 입력
@@ -33,7 +83,7 @@
   - 사용자가 입력한 회사명이 포함된 회사들을 찾아 종목코드 및 회사명 데이터를 모두 출력
   - 사용자는 원하는 종목 코드를 선택하여 해당 종목의 일별 주식 시세를 가져옴
 
-  ### - step 2. 보고자료 준비하기:
+  ### - step 2. 주식 분석 자료(그래프, 테이블) 준비하기:
   - 가져온 주가 데이터를 Excel(.xlsx)과 Csv(.csv)파일로 저장
   - 차트 저장 디렉토리를 res/stock_report로 설정
   - preprocess_stock_data 함수를 호출하여 주가 데이터를 전처리 함
@@ -58,23 +108,30 @@
 ## 🧩 Block Diagram
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/0ec058eb-8edf-499e-9a35-429d9666c316)
 
-## 프로젝트의 주요 특징
- 1)오픈 소스 활용:
-FinanceDataReader/matplotlib/Pandas/datetime/os/pptx/smtplib/email/schedule/time
- 2) 강의에서 배운 툴 사용:
-① library: matplotlib /Pandas excel&csv 파일 저장 응용
-② tool: jupyter notebook/ Github
- 3) 자체 개발: 
-① 여러명한테 동시에 email 전송하는 기능
-② 사용자가 원하는 특정 회시만 볼 수 있도록 입력 받고 크롤링 해오는 기능
-③ 코드명을 입력하면 일별시세 보여주는 기능
-④ 정해진 시간에 일별 주식 분석 자료 전송하기
+## 🔗 UML Sequence Diagram
+### # step 1 ~ step 2
+![image](https://github.com/ninji0815/stock-report/assets/150305171/feeb8a07-eb04-4382-a3f1-6bfab814edf0)
+---
+### # step 3
+![image](https://github.com/ninji0815/stock-report/assets/150305171/cfc808ec-0148-4670-9010-e4469c6718a6)
+---
+### # step 4
+![image](https://github.com/ninji0815/stock-report/assets/150305171/f0632df2-0f38-49e8-a429-7538c7e3bc71)
 
-## UML Sequence Diagram
+## 📂 UML Class Diagram
+앞선 4단계를 토대로 각각 클래스를 구현 
 
-## UML Class Diagram
+- 첫 번째, 주식 데이터를 크롤링 후 저장
 
-## 파일별 구현 형태
+- 두 번째, 데이터를 토대로 그래프 및 테이블을 작성
+
+- 세 번째, 작성한 그래프, 테이블로 PPT 보고서를 제작 
+
+- 마지막, Sender가 Receiver들에게 SendMail 클래스를 통하여 이메일을 전송
+
+![image](https://github.com/ninji0815/stock-report/assets/150305171/b649b61f-435a-4290-8a2d-9f64d9787f65)
+
+## 📄 파일별 구현 형태
 
 
 
