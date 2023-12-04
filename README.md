@@ -184,7 +184,36 @@ pip install schedule
 |테스트1|테스트2|테스트3|
 |테스트1|테스트2|테스트3|
 
+<br/><br/>
+## 참고문헌
+**Journal Articles**
 
+1) Pandas Development Team. (2023). Pandas. [https://pandas.pydata.org/](https://pandas.pydata.org/)
 
+2) Choi, Y. (2018). FinanceDataReader on GitHub. [https://github.com/FinanceData/FinanceDataReader](https://github.com/FinanceData/FinanceDataReader)
+
+**Books**
+
+3) Matplotlib Development Team. (n.d.). Matplotlib Documentation. [https://matplotlib.org/](https://matplotlib.org/)
+
+**Websites**
+
+4) Python Software Foundation. (n.d.). smtplib - SMTP protocol client. [https://docs.python.org/3/library/smtplib.html](https://docs.python.org/3/library/smtplib.html)
+
+5) Python Software Foundation. (n.d.). smtplib.py on GitHub. [https://github.com/python/cpython/blob/main/Lib/smtplib.py](https://github.com/python/cpython/blob/main/Lib/smtplib.py)
+
+6) Python-PPTX Team. (n.d.). python-pptx Documentation. [https://python-pptx.readthedocs.io/](https://python-pptx.readthedocs.io/)
+
+7) Python-PPTX Team. (n.d.). Quickstart Guide. [https://python-pptx.readthedocs.io/en/latest/user/intro.html](https://python-pptx.readthedocs.io/en/latest/user/intro.html)
+
+8) Python Software Foundation. (n.d.). Email Examples. [https://docs.python.org/3/library/email.examples.html](https://docs.python.org/3/library/email.examples.html)
+
+9) Python Software Foundation. (n.d.). datetime — Basic date and time types. [https://docs.python.org/3/library/datetime.html](https://docs.python.org/3/library/datetime.html)
+
+10) Python Software Foundation. (n.d.). os — Miscellaneous operating system interfaces. [https://docs.python.org/3/library/os.html](https://docs.python.org/3/library/os.html)
+
+**Other Sources**
+
+11) JackerLab. (n.d.). Python Library Schedule. [https://schedule.readthedocs.io/](https://schedule.readthedocs.io/)
 
 
