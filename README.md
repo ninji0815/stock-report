@@ -2,14 +2,7 @@
 
 일별 주식 분석 자동화 시스템
 
-## 목차
-  * [🖥️ 프로젝트 소개](#-----------)
-  * [👍 프로젝트의 주요 특징](#--------------)
-  * [📌 시나리오 및 요구사항](#--------------)
-  * [🧩 Block Diagram](#---block-diagram)
-  * [🔗 UML Sequence Diagram](#---uml-sequence-diagram)
-  * [📂 UML Class Diagram](#---uml-class-diagram)
-  * [📄 파일별 구현 형태](#------------)
+
 
 
 ## 🖥️ 프로젝트 소개
