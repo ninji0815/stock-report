@@ -3,15 +3,19 @@
 일별 주식 분석 자동화 시스템
 
 ## 목차
-  * [🖥️ 프로젝트 소개](#-----------)
-  * [👍 프로젝트의 주요 특징](#--------------)
-  * [📌 시나리오 및 요구사항](#--------------)
-  * [🧩 Block Diagram](#---block-diagram)
-  * [🔗 UML Sequence Diagram](#---uml-sequence-diagram)
-  * [📂 UML Class Diagram](#---uml-class-diagram)
-  * [📄 파일별 구현 형태](#------------)
+- [프로젝트 소개](#-------)
+  * [개발 기간](#-----)
+  * [팀원 구성](#-----)
+- [필수 패키지(오픈소스 포함)](#---------------)
+- [프로젝트의 주요 특징](#-----------)
+- [시나리오 및 요구사항](#-----------)
+- [Block Diagram](#block-diagram)
+- [UML Sequence Diagram](#uml-sequence-diagram)
+- [UML Class Diagram](#uml-class-diagram)
+- [파일별 구현 형태](#---------)
 
-## 🖥️ 프로젝트 소개
+
+## 프로젝트 소개
 사용자가 원하는 회사의 주식 정보를 메일로 받아볼 수 있는 자동화 시스템입니다.
 
 주식 열풍이 부는 요즘, 바쁜 현대인들을 위해 고안하였습니다.
@@ -19,10 +23,10 @@
  - 효율적인 데이터 수집 및 분석 가능
  - 자동 보고 및 시각화 기능으로 편리하게 시장 동향 파악 가능
 
-### 🕰️ 개발 기간
+### 개발 기간
 23.11.14 ~ 23.12.06
 
-### 👩‍🤝‍👩 팀원 구성
+### 팀원 구성
 • 팀장 : 이지혜 - (step 4) 보고서 이메일 전송 단계, 단계별 클래스의 전반적인 코드 구현
 
 • 팀원1 : 백민지 - (step 1-2) 일별 시세 크롤링 및 주식 분석 자료 제작 단계, GitHub 작성
@@ -31,7 +35,7 @@
 
 • 팀원3 : 변지연 - (step 2) 주식 분석 자료 제작, 중간 발표자료 제작, 최종 발표자료 내용 구성
 
-## ⚙️ 필수 패키지(오픈소스 포함)
+## 필수 패키지(오픈소스 포함)
 - Ubuntu 20.04에 패키지 설치 방법:
 
 ```
@@ -85,7 +89,7 @@ pip install schedule
 
    - 주기적으로 실행되어야 하는 작업, 예를 들어 자동화된 스크립트나 백그라운드 작업 등을 처리하는 데 사용
 
-## 👍 프로젝트의 주요 특징
+## 프로젝트의 주요 특징
  ### 1) 오픈 소스 활용:
 - FinanceDataReader
 - matplotlib
@@ -114,7 +118,7 @@ pip install schedule
 
    ④ 정해진 시간에 일별 주식 분석 자료 전송하는 기능
    
-## 📌 시나리오 및 요구사항
+## 시나리오 및 요구사항
   ### - step 1. 종목 코드 및 일별 시세 불러오기: 
   - 사용자가 종목코드를 검색하기 위해 프로그램에 회사명을 입력
   - FinanceDataReader를 사용하여 KRX(한국 주식거래소)에서 종목 코드 및 회사명 데이터를 가져옴
@@ -143,10 +147,10 @@ pip install schedule
   - 이메일은 여러명에게 동시에 전송될 수 있음
   - 메일이 전송되었을 경우에는 성공 메시지가, 실패하였을 경우에는 오류 메시지가 출력됨 
 
-## 🧩 Block Diagram
+## Block Diagram
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/0ec058eb-8edf-499e-9a35-429d9666c316)
 
-## 🔗 UML Sequence Diagram
+## UML Sequence Diagram
 ### # step 1 ~ step 2
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/feeb8a07-eb04-4382-a3f1-6bfab814edf0)
 ---
@@ -156,7 +160,7 @@ pip install schedule
 ### # step 4
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/f0632df2-0f38-49e8-a429-7538c7e3bc71)
 
-## 📂 UML Class Diagram
+## UML Class Diagram
 앞선 4단계를 토대로 각각 클래스를 구현 
 
 - 첫 번째, 주식 데이터를 크롤링 후 저장
@@ -169,7 +173,7 @@ pip install schedule
 
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/b649b61f-435a-4290-8a2d-9f64d9787f65)
 
-## 📄 파일별 구현 형태
+## 파일별 구현 형태
 
 표를 넣어야 돼유~~~~~~~~~
 
