@@ -1,4 +1,4 @@
-# StockData Report-Project
+# Automated Daily Stock Analysis System
 
 일별 주식 분석 자동화 시스템
 <br/><br/>
