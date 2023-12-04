@@ -1,7 +1,7 @@
 # Automated Daily Stock Analysis System
 
 일별 주식 분석 자동화 시스템
-<br/><br/>
+
 ## 목차
 - [🖥️ 프로젝트 소개](#프로젝트-소개)
   * [개발 기간](#개발-기간)
