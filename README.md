@@ -1,7 +1,7 @@
 # Automated Daily Stock Analysis System
 
 일별 주식 분석 자동화 시스템
-
+<br/><br/>
 ## 목차
 - [🖥️ 프로젝트 소개](#프로젝트-소개)
   * [🕰️ 개발 기간](#개발-기간)
@@ -33,7 +33,6 @@
 • 팀원2 : 유원아 - (step 3) 주식 보고서 작성 단계, 중간 및 최종 발표자료 피피티 제작
 
 • 팀원3 : 변지연 - (step 2) 주식 분석 자료 제작, 중간 발표자료 제작, 최종 발표자료 내용 구성
-
 <br/><br/>
 ## 필수 패키지(오픈소스 포함)
 - Ubuntu 20.04에 패키지 설치 방법:
@@ -88,7 +87,6 @@ pip install schedule
 9. **schedule**:
 
    - 주기적으로 실행되어야 하는 작업, 예를 들어 자동화된 스크립트나 백그라운드 작업 등을 처리하는 데 사용
-
 <br/><br/>
 ## 프로젝트의 주요 특징
  ### 1) 오픈 소스 활용:
@@ -118,7 +116,6 @@ pip install schedule
    ③ 코드명을 입력하면 일별시세 보여주는 기능
 
    ④ 정해진 시간에 일별 주식 분석 자료 전송하는 기능
-
 <br/><br/>
 ## 시나리오 및 요구사항
   ### - step 1. 종목 코드 및 일별 시세 불러오기: 
@@ -148,7 +145,6 @@ pip install schedule
   - SMTP서버를 통해 전송되며, 송신자의 이메일 주소와 비밀번호를 입력해야 함
   - 이메일은 여러명에게 동시에 전송될 수 있음
   - 메일이 전송되었을 경우에는 성공 메시지가, 실패하였을 경우에는 오류 메시지가 출력됨 
-
 <br/><br/>
 ## Block Diagram
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/0ec058eb-8edf-499e-9a35-429d9666c316)
@@ -177,7 +173,6 @@ pip install schedule
 - 마지막, Sender가 Receiver들에게 SendMail 클래스를 통하여 이메일을 전송
 
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/b649b61f-435a-4290-8a2d-9f64d9787f65)
-
 <br/><br/>
 ## 파일별 구현 형태
 
