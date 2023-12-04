@@ -31,7 +31,59 @@
 
 • 팀원3 : 변지연 - (step 2) 주식 분석 자료 제작, 중간 발표자료 제작, 최종 발표자료 내용 구성
 
-### ⚙️ 개발 환경
+## ⚙️ 필수 패키지(오픈소스 포함)
+- Ubuntu 20.04에 패키지 설치 방법:
+
+```
+pip install pandas
+pip install finance-datareader
+pip install pandas_datareader
+pip install matplotlib
+pip install openpyxl
+pip install html5lib
+pip install requests
+```
+```
+pip install python-pptx
+```
+```
+pip install schedule
+```
+1. **pandas**:
+
+   - 표 형태의 데이터를 다루고 다양한 데이터 분석 작업을 수행하는 데 사용.
+
+2. **finance-datareader** (또는 **FinanceDataReader**):
+
+   - 금융 시장 데이터를 가져와서 분석 및 시각화에 사용
+
+3. **pandas_datareader**:
+
+   - 주가, 환율, 경제 지표 등의 금융 데이터를 가져오는 데 사용
+
+4. **matplotlib**:
+
+   - 선 그래프, 막대 그래프, 히스토그램 등을 생성하여 데이터를 시각적으로 표현하는 데 사용
+
+5. **openpyxl**:
+
+   - Excel 파일을 생성, 편집하거나 읽어오는 데 사용
+
+6. **html5lib**:
+   
+   - 웹 스크레이핑 및 HTML 문서 처리에 사용
+
+7. **requests**:
+   
+   - 웹 페이지에서 데이터를 가져오거나 API에 요청을 보내는 데 사용
+
+8. **python-pptx**:
+
+   -  파워포인트 프레젠테이션을 동적으로 생성하는 데 사용
+
+9. **schedule**:
+
+   - 주기적으로 실행되어야 하는 작업, 예를 들어 자동화된 스크립트나 백그라운드 작업 등을 처리하는 데 사용
 
 ## 👍 프로젝트의 주요 특징
  ### 1) 오픈 소스 활용:
@@ -119,7 +171,7 @@
 
 ## 📄 파일별 구현 형태
 
-
+표를 넣어야 돼유~~~~~~~~~
 
 
 
