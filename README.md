@@ -1,7 +1,7 @@
 # StockData Report-Project
 
 일별 주식 분석 자동화 시스템
-
+<br/><br/>
 ## 목차
 - [프로젝트 소개](#프로젝트-소개)
   * [개발 기간](#개발-기간)
@@ -14,7 +14,7 @@
 - [UML Class Diagram](#uml-class-diagram)
 - [파일별 구현 형태](#파일별-구현-형태)
 
-
+<br/><br/>
 ## 프로젝트 소개
 사용자가 원하는 회사의 주식 정보를 메일로 받아볼 수 있는 자동화 시스템입니다.
 
@@ -22,7 +22,7 @@
 
  - 효율적인 데이터 수집 및 분석 가능
  - 자동 보고 및 시각화 기능으로 편리하게 시장 동향 파악 가능
-
+<br/><br/>
 ### 개발 기간
 23.11.14 ~ 23.12.06
 
@@ -35,6 +35,7 @@
 
 • 팀원3 : 변지연 - (step 2) 주식 분석 자료 제작, 중간 발표자료 제작, 최종 발표자료 내용 구성
 
+<br/><br/>
 ## 필수 패키지(오픈소스 포함)
 - Ubuntu 20.04에 패키지 설치 방법:
 
@@ -89,6 +90,7 @@ pip install schedule
 
    - 주기적으로 실행되어야 하는 작업, 예를 들어 자동화된 스크립트나 백그라운드 작업 등을 처리하는 데 사용
 
+<br/><br/>
 ## 프로젝트의 주요 특징
  ### 1) 오픈 소스 활용:
 - FinanceDataReader
@@ -117,7 +119,8 @@ pip install schedule
    ③ 코드명을 입력하면 일별시세 보여주는 기능
 
    ④ 정해진 시간에 일별 주식 분석 자료 전송하는 기능
-   
+
+<br/><br/>
 ## 시나리오 및 요구사항
   ### - step 1. 종목 코드 및 일별 시세 불러오기: 
   - 사용자가 종목코드를 검색하기 위해 프로그램에 회사명을 입력
@@ -147,9 +150,11 @@ pip install schedule
   - 이메일은 여러명에게 동시에 전송될 수 있음
   - 메일이 전송되었을 경우에는 성공 메시지가, 실패하였을 경우에는 오류 메시지가 출력됨 
 
+<br/><br/>
 ## Block Diagram
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/0ec058eb-8edf-499e-9a35-429d9666c316)
 
+<br/><br/>
 ## UML Sequence Diagram
 ### # step 1 ~ step 2
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/feeb8a07-eb04-4382-a3f1-6bfab814edf0)
@@ -160,6 +165,7 @@ pip install schedule
 ### # step 4
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/f0632df2-0f38-49e8-a429-7538c7e3bc71)
 
+<br/><br/>
 ## UML Class Diagram
 앞선 4단계를 토대로 각각 클래스를 구현 
 
@@ -173,9 +179,11 @@ pip install schedule
 
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/b649b61f-435a-4290-8a2d-9f64d9787f65)
 
+<br/><br/>
 ## 파일별 구현 형태
 
 표를 넣어야 돼유~~~~~~~~~
+
 
 
 
