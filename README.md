@@ -44,6 +44,7 @@ sudo pip install pandas_datareader
 sudo pip install matplotlib
 sudo pip install openpyxl
 sudo pip install plotly
+
 pip install html5lib
 pip install requests
 ```
@@ -176,17 +177,16 @@ sudo pip install schedule
 <br/><br/>
 ## 파일별 구현 형태
 
-표를 채워야 돼유~~~~~~~~~
 
 |py 파일명|개발 방식|개발 담당 팀원명|
 |------|---|---|
-|main.py|테스트2|이지혜 백민지|
-|get_stock_data.py|테스트2|변지연 백민지|
-|stock_data_loading.py|테스트2|백민지|
-|make_report.py|테스트2|유원아|
-|send_mail.py|테스트2|이지혜|
-|sender.py|테스트2|이지혜|
-|receiver.py|테스트2|이지혜|
+|main.py|혼합|이지혜 백민지|
+|get_stock_data.py|혼합|변지연 백민지|
+|stock_data_loading.py|혼합|백민지|
+|make_report.py|Open Source|유원아|
+|send_mail.py|혼합|이지혜|
+|sender.py|자체개발|이지혜|
+|receiver.py|자체개발|이지혜|
 
 
 <br/><br/>
