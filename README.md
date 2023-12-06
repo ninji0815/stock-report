@@ -38,19 +38,20 @@
 - Ubuntu 20.04에 패키지 설치 방법:
 
 ```
-pip install pandas
-pip install finance-datareader
-pip install pandas_datareader
-pip install matplotlib
-pip install openpyxl
+sudo pip install pandas
+sudo pip install finance-datareader
+sudo pip install pandas_datareader
+sudo pip install matplotlib
+sudo pip install openpyxl
+sudo pip install plotly
 pip install html5lib
 pip install requests
 ```
 ```
-pip install python-pptx
+sudo pip install python-pptx
 ```
 ```
-pip install schedule
+sudo pip install schedule
 ```
 1. **pandas**:
 
