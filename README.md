@@ -15,9 +15,9 @@
 - [📜 파일별 구현 형태](#파일별-구현-형태)
 <br/><br/>
 ## 프로젝트 소개
-사용자가 원하는 회사의 주식 정보를 메일로 받아볼 수 있는 자동화 시스템입니다.
+_사용자가 원하는 회사의 주식 정보를 메일로 받아볼 수 있는 자동화 시스템입니다.
 
-주식 열풍이 부는 요즘, 바쁜 현대인들을 위해 고안하였습니다.
+주식 열풍이 부는 요즘, 바쁜 현대인들을 위해 고안하였습니다._
 
  - 효율적인 데이터 수집 및 분석 가능
  - 자동 보고 및 시각화 기능으로 편리하게 시장 동향 파악 가능
@@ -32,7 +32,7 @@
 
 • 팀원2 : 유원아 - (step 3) 주식 보고서 작성 함수, 프로젝트 시나리오 작성, 최종 발표자료 피피티 및 대본 제작, UML Sequence Diagram
 
-• 팀원3 : 변지연 - (step 2) 주식 분석자료 제작 함수, 중간발표 PPT 제작, 최종 발표자료(Block Diagram) 작성, UML Sequence Diagram
+• 팀원3 : 변지연 - (step 2) 주식 분석자료(High, Low, Gap 그래프) 제작 함수, 중간발표 PPT 제작, Block Diagram 작성, UML Sequence Diagram
 <br/><br/>
 ## 필수 패키지(오픈소스 포함)
 - Ubuntu 20.04에 패키지 설치 방법:
@@ -151,19 +151,30 @@ sudo pip install schedule
 ## Block Diagram
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/0ec058eb-8edf-499e-9a35-429d9666c316)
 
+개발한 S/W에 대한 블록 다이어그램.
+
+가장 먼저, 사용자가 원하는 회사의 코드를 입력하면 한국 거래소에서 주식 데이터를 크롤링하여 받아옴
+
+받아온 데이터는 전처리하여 저장, 저장된 데이터를 토대로 회사에 대한 일별 주식 데이터를 표와 그래프로 작성함
+
+작성한 표와 그래프는 엑셀과 Csv 파일로 각각 저장됨
+
+여기서 작성한 표와 그래프를 사용자가 보기 편하도록 하나의 ppt파일로 만든 후, 사용자가 입력한 이메일 주소와 시간대에 맞춰서 자동 전송함
+
+즉 사용자는 이메일과 시간만 입력해두면, 언제나 편하게 자신이 원하는 회사의 정리된 일별 주식 정보를 받아볼 수 있음
 <br/><br/>
 ## UML Sequence Diagram
-### # step 1 ~ step 2
+### # step 1 ~ step 2 : 주식 데이터를 크롤링 후 저장, 그래프 및 테이블을 작성
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/feeb8a07-eb04-4382-a3f1-6bfab814edf0)
 ---
-### # step 3
+### # step 3 : 작성한 그래프, 테이블로 PPT 보고서를 제작
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/cfc808ec-0148-4670-9010-e4469c6718a6)
 ---
-### # step 4
+### # step 4 : Sender가 Receivers에게 이메일을 전송
 ![image](https://github.com/ninji0815/stock-report/assets/150305171/f0632df2-0f38-49e8-a429-7538c7e3bc71)
 <br/><br/>
 ## UML Class Diagram
-앞선 4단계를 토대로 각각 클래스를 구현 
+앞선 4단계를 토대로 각각 클래스를 구현하였고 sender와 receiver 클래스를 추가함
 
 - 첫 번째, 주식 데이터를 크롤링 후 저장
 
@@ -183,7 +194,7 @@ sudo pip install schedule
 |main.py|혼합|이지혜 백민지|
 |get_stock_data.py|혼합|변지연 백민지|
 |stock_data_loading.py|혼합|백민지|
-|make_report.py|Open Source|유원아|
+|make_report.py|혼합|유원아|
 |send_mail.py|혼합|이지혜|
 |sender.py|자체개발|이지혜|
 |receiver.py|자체개발|이지혜|
