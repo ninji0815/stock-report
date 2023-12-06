@@ -28,7 +28,7 @@
  ### 2) 팀원 구성
 • 팀장 : 이지혜 - (step 4) 보고서 이메일 전송 코드, 클래스와 main 함수의 코드 구현, UML Class Diagram, UML Sequence Diagram
 
-• 팀원1 : 백민지 - (step 1-2) 일별 시세 크롤링 코드 작성, 주식 분석 자료 코드 작성, GitHub 작성, UML Class Diagram, UML Sequence Diagram
+• 팀원1 : 백민지 - (step 1-2) 일별 시세 크롤링 코드, 주식 분석 자료 코드, GitHub 작성, UML Class Diagram, UML Sequence Diagram
 
 • 팀원2 : 유원아 - (step 3) 주식 보고서 작성 단계, 중간(시나리오) 및 최종 발표자료 피피티 및 대본 제작, UML Sequence Diagram
 
