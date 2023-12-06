@@ -30,7 +30,7 @@
 
 • 팀원1 : 백민지 - (step 1-2) 주식 크롤링 함수, 주식 분석자료 제작 함수, GitHub 작성, UML Class Diagram, UML Sequence Diagram
 
-• 팀원2 : 유원아 - (step 3) 주식 보고서 작성 함수, 중간(시나리오) 및 최종 발표자료 피피티 및 대본 제작, UML Sequence Diagram
+• 팀원2 : 유원아 - (step 3) 주식 보고서 작성 함수, 시나리오 작성, 최종 발표자료 피피티 및 대본 제작, UML Sequence Diagram
 
 • 팀원3 : 변지연 - (step 2) 주식 분석자료 제작 함수, 중간발표 PPT 제작, 최종 발표자료(Block Diagram) 작성, UML Sequence Diagram
 <br/><br/>
