@@ -221,6 +221,6 @@ sudo pip install schedule
 
 11) JackerLab. (n.d.). Python Library Schedule. [https://schedule.readthedocs.io/](https://schedule.readthedocs.io/)
 
-12) pykrx. (2023). sharebook-kr. [[https://github.com/sharebook-kr/pykrx.git]([https://github.com/sharebook-kr/pykrx.git)
+12) pykrx. (2023). sharebook-kr. [https://github.com/sharebook-kr/pykrx.git]([https://github.com/sharebook-kr/pykrx.git)
 
 
