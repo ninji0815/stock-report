@@ -2,7 +2,7 @@
 
 class sender:
     def __init__(self):
-        self.id = "wlgp5682@naver.com"
-        self.pw = "wlgp0926$"
+        self.id = <sender id>
+        self.pw = <sender pw>
     
 ### end here
